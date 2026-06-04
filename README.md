@@ -1,4 +1,4 @@
-# VoiceMood — Speech Emotion Recognition with Statistical Evaluation
+# VoiceMood: Speech Emotion Recognition with Statistical Evaluation
 
 A speech emotion recognition system that compares classical machine learning
 (MFCC + scikit-learn) against modern deep learning representations
@@ -180,8 +180,6 @@ voicemood/
 ```
 
 ---
-
-
 
 ## Honest scope notes
 
