@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Data (keep small artifacts, ignore raw audio)
+data/raw/
+data/embeddings/*.npz
+!data/embeddings/.gitkeep
+
+# Results — keep structure, ignore generated artifacts that get regenerated
+results/plots/*.png
+results/metrics/*.json
+results/*.onnx
+!results/plots/.gitkeep
+!results/metrics/.gitkeep
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
