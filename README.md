@@ -181,24 +181,7 @@ voicemood/
 
 ---
 
-## How this maps to the Apple AIML JD
 
-| JD preferred qualification | Covered in VoiceMood |
-|---|---|
-| Python / OOP | Whole `src/voicemood/` package, abstract `EmotionClassifier` base |
-| PyTorch | wav2vec2 model used in the Colab embedding step |
-| TensorFlow | YAMNet (from TF Hub) used as a second deep baseline |
-| Scikit-learn | All three classification heads, calibration, metrics |
-| Core ML | Path documented in `docs/coreml_path.md`, ONNX as intermediate |
-| Adapting algorithms for ML, speech, multimodal | Speech is the input modality; linear probes on top of self-supervised representations |
-| Crafting, prototyping, evaluating interactive systems | Streamlit prototype with live recording |
-| Linear algebra | MFCC computation, embedding projections, classifier weights |
-| Statistics | Bootstrap CIs, McNemar's paired test, calibration, confusion matrices |
-| Crafting and analyzing experiments | Full experimental protocol in `docs/methodology.md` |
-| Statistics / time series | Both — paired statistical testing AND emotion-drift time series |
-| Collaboration / problem solving | Demonstrated by the project itself |
-
----
 
 ## Honest scope notes
 
