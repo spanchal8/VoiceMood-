@@ -8,8 +8,7 @@ clips from the same actor in their natural recording order, then ask:
     can we detect change-points where the dominant emotion shifts?
 
 This serves two purposes:
-    1. Demonstrates time-series methods (the JD asked for time series
-       expertise explicitly).
+    1. Demonstrates time-series methods on top of per-frame model predictions.
     2. Shows a realistic use case: tracking a speaker's emotion over a
        call or voice assistant interaction.
 
